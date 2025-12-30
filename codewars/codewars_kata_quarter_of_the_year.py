@@ -1,0 +1,3 @@
+def quarter_of(month):
+    quarter = {'1': (1, 3), '2': (4, 6), '3': (7, 9), '4': (10, 12)}
+    return int(quarter[month])
