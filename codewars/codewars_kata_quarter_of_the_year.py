@@ -1,3 +1,8 @@
 def quarter_of(month):
-    quarter = {'1': (1, 3), '2': (4, 6), '3': (7, 9), '4': (10, 12)}
-    return int(quarter[month])
+    return (month + 2) // 3
+
+
+#Solução utilizando lista
+def quarter_of(month):
+    quarters = [None, 1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4]
+    return quarters[month]
